@@ -79,7 +79,7 @@ public class SortQuick {
         System.out.print("使用SortQuick快速排序后：");
         printArr(numbers);
 
-        SortBubbleTwo sortBubbleTwo = new SortBubbleTwo();
+        Algorithm.SortBubbleTwo sortBubbleTwo = new Algorithm.SortBubbleTwo();
         sortBubbleTwo.bubbleSort(numbers);
         System.out.print("使用SortBubbleTwo快速排序后：");
         printArr(numbers);
