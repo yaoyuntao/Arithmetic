@@ -2,7 +2,7 @@ package MyAlgorithm;
 
 public class Revesal {
 
-    public static int[] revesalArray(int[] arr){
+    public  int[] revesalArray(int[] arr){
         int[] newarr=new int[arr.length];
         for(int i =0; i<=arr.length-1;i++){
             newarr[i] = arr[arr.length-i-1];
@@ -31,20 +31,20 @@ public class Revesal {
     }
 
 
-
-    public static void main(String[] args) {
-        int n = 123467890;
-        String str = Integer.toString(n);
-        char[] array = str.toCharArray();
-        int[] arrint = new int[array.length];
-
-        for(int i = 0; i<=array.length-1;i++){
-            System.out.println("array:"+array[i]);
-            arrint[i]=(int)array[i]-48;
-            System.out.println(arrint[i]);
-        }
-//        int[] arr = {2,3,4,0,9};
-        double sum=Revesal.toNum(arrint);
-        System.out.println((int)sum);
-    }
+//
+//    public static void main(String[] args) {
+//        int n = 123467890;
+//        String str = Integer.toString(n);
+//        char[] array = str.toCharArray();
+//        int[] arrint = new int[array.length];
+//
+//        for(int i = 0; i<=array.length-1;i++){
+//            System.out.println("array:"+array[i]);
+//            arrint[i]=(int)array[i]-48;
+//            System.out.println(arrint[i]);
+//        }
+////        int[] arr = {2,3,4,0,9};
+//        double sum=Revesal.toNum(arrint);
+//        System.out.println((int)sum);
+//    }
 }
